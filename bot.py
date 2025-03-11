@@ -1,7 +1,8 @@
 import os
 import openai
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from telegram import Update
+from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 
 # Load API keys from environment variables
 OPENAI_API_KEY = "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"
